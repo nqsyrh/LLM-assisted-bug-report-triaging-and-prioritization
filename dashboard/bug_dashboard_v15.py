@@ -336,7 +336,7 @@ section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h3 {{
 section[data-testid="stSidebar"] label,
 section[data-testid="stSidebar"] p,
 section[data-testid="stSidebar"] span {{
-    color: #334155;
+    color: #1F2937 !important;
 }}
 section[data-testid="stSidebar"] div[data-baseweb="select"] > div,
 section[data-testid="stSidebar"] div[data-testid="stTextInput"] input,
@@ -360,9 +360,9 @@ section[data-testid="stSidebar"] span[data-baseweb="tag"] span {{
     border: 1px solid #BFE8E1;
     border-radius: 8px;
     padding: 10px 11px;
-    font-size: 0.75rem;
-    color: #475569;
-    line-height: 1.45;
+    font-size: 0.78rem;
+    color: #334155 !important;
+    line-height: 1.5;
 }}
 
 /* Tabs */
