@@ -322,7 +322,7 @@ p, label, .stCaption {{ color: #475569 !important; }}
 /* Sidebar */
 section[data-testid="stSidebar"],
 section[data-testid="stSidebar"] > div {{
-    background: #FFFFFF !important;
+    background: #F8FAFC !important;
 }}
 section[data-testid="stSidebar"] {{
     border-right: 1px solid var(--muted-border) !important;
