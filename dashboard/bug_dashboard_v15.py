@@ -18,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://llm-assisted-bug-report-triaging-and.onrender.com"
 
 ML_BASELINE_RESULTS = {
     "Naive Bayes": {
