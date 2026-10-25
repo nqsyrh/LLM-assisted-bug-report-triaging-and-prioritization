@@ -336,7 +336,7 @@ section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h3 {{
 section[data-testid="stSidebar"] label,
 section[data-testid="stSidebar"] p,
 section[data-testid="stSidebar"] span {{
-    color: #1F2937 !important;
+    color: #334155;
 }}
 section[data-testid="stSidebar"] div[data-baseweb="select"] > div,
 section[data-testid="stSidebar"] div[data-testid="stTextInput"] input,
@@ -347,22 +347,35 @@ section[data-testid="stSidebar"] input {{
     border-radius: 6px !important;
     box-shadow: none !important;
 }}
-section[data-testid="stSidebar"] span[data-baseweb="tag"] {{
-    background: #CCFBF1 !important;
+section[data-testid="stSidebar"] [data-baseweb="tag"] {{
+    background-color: #CCFBF1 !important;
     color: #115E59 !important;
+    border: none !important;
     border-radius: 4px !important;
 }}
-section[data-testid="stSidebar"] span[data-baseweb="tag"] span {{
+
+section[data-testid="stSidebar"] [data-baseweb="tag"] *,
+section[data-testid="stSidebar"] [data-baseweb="tag"] span,
+section[data-testid="stSidebar"] [data-baseweb="tag"] svg {{
     color: #115E59 !important;
+    fill: #115E59 !important;
+}}
+section[data-testid="stSidebar"] div[data-testid="stSlider"] [role="slider"] {{
+    background-color: #14B8A6 !important;
+    border-color: #14B8A6 !important;
+}}
+
+section[data-testid="stSidebar"] div[data-testid="stSlider"] [data-baseweb="slider"] > div > div {{
+    background-color: #14B8A6 !important;
 }}
 .sidebar-note {{
     background: var(--panel);
     border: 1px solid #BFE8E1;
     border-radius: 8px;
     padding: 10px 11px;
-    font-size: 0.78rem;
-    color: #334155 !important;
-    line-height: 1.5;
+    font-size: 0.75rem;
+    color: #475569;
+    line-height: 1.45;
 }}
 
 /* Tabs */
