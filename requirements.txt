@@ -12,3 +12,4 @@ requests
 nltk
 sqlalchemy
 imbalanced-learn
+plotly
